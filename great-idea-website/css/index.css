@@ -64,3 +64,62 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+nav {
+	border: 1px solid green;
+	height: 15%;
+	padding: 2em;
+	text-align: center;
+}
+
+a {
+	margin: 20px;
+	padding: 20px;
+	color: grey;
+	text-decoration: none;
+}
+
+.logo {
+	float: right;
+	margin-top: -10px;
+}
+
+header {
+	border: 2px solid red;
+	height: 400px;
+}
+
+.top-left {
+	border: 1px solid blue;
+	height: 50%;
+	width: 50%;
+	float: left;
+}
+
+h1 {
+	display: block;
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.top-img {
+	border: 1px solid blue;
+	height: 75%;
+	width: 35%;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+h4 {
+	text-align: center;
+}
+
+.top-section {
+
+}
+
+.middle-section {
+	display: block;
+	border: 1px solid black;
+	margin-top: 1px;
+}

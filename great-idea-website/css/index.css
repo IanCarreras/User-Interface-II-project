@@ -65,61 +65,89 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 nav {
-	border: 1px solid green;
-	height: 15%;
-	padding: 2em;
+	height: 6em;
+	padding: .25em;
 	text-align: center;
+	display: block;
 }
 
 a {
-	margin: 20px;
-	padding: 20px;
+	margin: 1.5em;
+	padding: .5em;
 	color: grey;
 	text-decoration: none;
+	display: inline-block;
 }
 
 .logo {
-	float: right;
 	margin-top: -10px;
 }
 
 header {
-	border: 2px solid red;
+	display: block;
+	border-bottom: 1px solid black;
 	height: 400px;
 }
 
 .top-left {
-	border: 1px solid blue;
-	height: 50%;
+	display: inline-block;
+	height: 100%;
 	width: 50%;
-	float: left;
 }
 
 h1 {
 	display: block;
-	float: left;
-	height: 200px;
-	width: 200px;
+	height: 70%;
+	width: 100%;
+	text-align: center;
+	font-size: 90px;
+	margin-top: 25px;
+}
+
+button {
+	border: 1px solid black;
+	margin-left: 40%;
 }
 
 .top-img {
-	border: 1px solid blue;
-	height: 75%;
-	width: 35%;
-	margin-top: 30px;
+	height: 90%;
+	width: 49%;
 	display: inline-block;
-}
-
-h4 {
-	text-align: center;
+	margin-top: 20px;
 }
 
 .top-section {
-
+	display: block;
 }
 
-.middle-section {
+.top-section-text {
+	display: inline-block;
+	width: 40%;
+	margin: 30px;
+}
+
+.middle-img {
 	display: block;
-	border: 1px solid black;
-	margin-top: 1px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+.bottom-section {
+	display: block;
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+}
+
+.bottom-section-text {
+	display: inline-block;
+	width: 25%;
+	margin: 15px 30px;
+}
+
+address {
+	margin: 30px;
+}
+
+h6 {
+	text-align: center;
 }
